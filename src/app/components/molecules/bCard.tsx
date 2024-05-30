@@ -15,7 +15,7 @@ function Bcard() {
       <p className="font-medium">Design & Creative</p>
       <div className="flex flex-col md:flex-row md:gap-4 justify-between">
         {ITX.map((card, i) => (
-          <div className="flex flex-col gap-6 md:gap-3 items-center">
+          <div key={i} className="flex flex-col gap-6 md:gap-3 items-center">
             <div
               className={`md:w-24 md:h-24 w-16 h-16 ${
                 i === 0 ? "rounded-3xl" : "rounded-full"

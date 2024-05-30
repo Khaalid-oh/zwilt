@@ -15,7 +15,7 @@ function Card() {
       <p className="font-medium">IT & Development</p>
       <div className="flex flex-col md:flex-row justify-evenly">
         {ITD.map((Ccard, i) => (
-          <div className="flex flex-col gap-6 md:gap-3 items-center">
+          <div key={i} className="flex flex-col gap-6 md:gap-3 items-center">
             <div
               className={`md:w-24 md:h-24 w-16 h-16 ${
                 i === ITD.length - 1 ? "rounded-[30px]" : "rounded-full"

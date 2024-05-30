@@ -18,7 +18,7 @@ function Hero() {
               quality={100}
               className="rounded-full"
             />
-          </span>{" "}
+          </span>
           has never been easier.
         </h1>
         <p className="text-sm md:text-lg text-gray-500 w-full md:w-1/2 px-4 md:px-0">
