@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.clipped-background {
+  background: linear-gradient(to right, #edefff, #edefff);
+  clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+}
+
+.slanted-background {
+  background: linear-gradient(to right, #202229, #202229);
+  clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+}
+.slanted-both {
+  clip-path: polygon(0 10%, 100% 0, 100% 91%, 0 100%);
+}
+.slanted-top {
+  clip-path: polygon(0 3.5%, 100% 0, 100% 100%, 0 100%);
+}

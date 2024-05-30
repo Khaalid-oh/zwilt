@@ -8,6 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        'light-purple':'#525AA0',
+        'ppurple': '#AF7CFF',
+        'custom-yellow': '#FFBE2E',
+        'cup': '#525AA0',
+        'light-green': '#C7F4C2',
+        'bgcard': '#F8F8F8',
+        'clip': '#EDEFFF',
+      },
+      boxShadow: {
+        'custom': '0 15px 30px rgba(191, 181, 255, 0.15)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
