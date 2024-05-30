@@ -22,8 +22,8 @@ function Hero() {
           has never been easier.
         </h1>
         <p className="text-sm md:text-lg text-gray-500 w-full md:w-1/2 px-4 md:px-0">
-          With our rigorous pre-vetting process, you'll never have to worry
-          about finding the ideal candidate ever again.
+          With our rigorous pre-vetting process, you`&apos;`ll never have to
+          worry about finding the ideal candidate ever again.
         </p>
       </div>
       <HeroSearch />
