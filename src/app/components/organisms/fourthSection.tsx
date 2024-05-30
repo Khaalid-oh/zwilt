@@ -47,7 +47,7 @@ function FourthSection() {
         <br className="hidden md:block" />
         skilled candidates so you can onboard them in a matter of days.
       </p>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-3">
         {candidateStep.map((step, i) => (
           <div
             key={i}

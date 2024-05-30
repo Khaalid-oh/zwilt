@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 
 const ITX = [
-  { label: "", image: "/vector-1.png" },
+  { label: "", image: "/vect.png" },
   { label: "UX Designer", image: "/figma.png" },
   { label: "Graphic Designer", image: "/ps.png" },
   { label: "Illustration Artist", image: "/illust.png" },

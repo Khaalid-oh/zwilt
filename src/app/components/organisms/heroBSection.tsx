@@ -28,22 +28,28 @@ function HeroBSection() {
 
   return (
     <div className="flex flex-col justify-evenly items-center bg-bgcard w-full md:w-[60%] h-auto md:h-[230px] rounded-2xl p-4 md:p-0 md:pl-20 gap-4 md:gap-0">
-      <div className="flex items-center w-full md:w-[344px] bg-gray-200 rounded-2xl h-12 gap-[6px] text-gray-700 transition-all">
+      <div className="flex items-center w-full md:w-[308px] bg-gray-200 rounded-2xl h-12 gap-[6px] text-gray-700 transition-all">
         <button
           onClick={() => setActiveTab("IT & Development")}
-          className={clsx("md:p-3 px-6 rounded-2xl", {
-            "text-gray-900 md:font-semibold text-[16px] md:text-normal bg-light-green transition-all":
-              activeTab === "IT & Development",
-          })}
+          className={clsx(
+            "md:p-3 px-6 py-1 rounded-2xl text-[14px] md:text-normal",
+            {
+              "text-gray-900 font-semibold text-[14px] md:text-normal bg-light-green transition-all":
+                activeTab === "IT & Development",
+            }
+          )}
         >
           IT & Development
         </button>
         <button
           onClick={() => setActiveTab("Design and Creative")}
-          className={clsx("md:p-3 px-6 rounded-2xl", {
-            "text-gray-900 md:font-semibold text-[16px] md:text-normal bg-light-green transition-all":
-              activeTab === "Design and Creative",
-          })}
+          className={clsx(
+            "md:p-3 px-6 py-1 rounded-2xl text-[14px] md:text-normal",
+            {
+              "text-gray-900 font-semibold text-[14px] md:text-normal bg-light-green transition-all":
+                activeTab === "Design and Creative",
+            }
+          )}
         >
           Design and Creative
         </button>
